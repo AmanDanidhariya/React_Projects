@@ -26,10 +26,6 @@ const Accordion = () => {
     setMultiple(prevData);
   }
 
-  console.log(selected);=== item.id
-  console.log(multiple);
-  console.log(enableMultiSelect);
-
   return (
     <div className="wrapper">
       <button onClick={() => setEnableMultiSelect(!enableMultiSelect)}>
