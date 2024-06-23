@@ -1,0 +1,35 @@
+.main_container {
+  display: grid;
+  place-items: center;
+  width: 50vw;
+  height: 50vh;
+  background-color: aqua;
+}
+.btn {
+  background-color: rgb(84, 158, 214);
+  color: white;
+  padding: 1rem;
+  border: none;
+  margin: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: larger;
+}
+
+.btn:hover {
+  color: black;
+  background-color: rgb(122, 219, 219);
+}
+.btn.active {
+  background-color: red;
+  color: white;
+}
+.btn_container {
+  display: flex;
+}
+.content {
+  background-color: rgb(68, 96, 255) !important;
+  width: 40vw;
+  height: 10vh;
+}
