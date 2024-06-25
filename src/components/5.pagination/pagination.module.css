@@ -1,0 +1,18 @@
+.currentPageStyle{
+    background-color: aquamarine;
+}
+.btn{
+    padding: 1rem;
+    background-color: rgb(252, 92, 39);
+    border: none;
+    font-size: larger;
+    margin: 0 0.2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(253, 253, 98);
+}
+.red{
+    background-color: yellowgreen;
+}
